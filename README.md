@@ -1,4 +1,4 @@
-[![64-bit xorshift RNG](xorshift64logo.png)]()
+[![64-bit xorshift RNG](xorshift64logo.png)](https://github.com/aelfimow/xorshift64-asm/blob/master/xorshift64logo.png)
 
 # 64-bit xorshift random number generator functions (in x86 assembly language)
 
