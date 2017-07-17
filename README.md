@@ -1,3 +1,5 @@
+[![64-bit xorshift RNG](xorshift64logo.png)]()
+
 # 64-bit xorshift random number generator functions (in x86 assembly language)
 
 Implementation of 64-bit xorshift random number generator discovered by
