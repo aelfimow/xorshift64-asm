@@ -9,4 +9,4 @@ For 64-bit xorshift RNGs George Marsaglia proposed 275 triples, which are
 used here in 275 assembly functions.
 
 The assembly file has been originally generated using my [cppasm](https://github.com/aelfimow/cppasm)
-library.
+generator.
