@@ -3,10 +3,16 @@
 # 64-bit xorshift random number generator functions (in x86 assembly language)
 
 Implementation of 64-bit xorshift random number generator discovered by
-George Marsaglia and described in his paper [Xorshift RNGs](http://www.jstatsoft.org/v08/i14/paper).
+George Marsaglia and described in his paper about Xorshift RNGs.
 
+## src1
 For 64-bit xorshift RNGs George Marsaglia proposed 275 triples, which are
 used here in 275 assembly functions.
 
-The assembly file has been originally generated using my [cppasm](https://github.com/aelfimow/cppasm)
+## src2
+These assembly functions must be parameterized with a triple and differ from
+the src1 functions this way, that a valid triple must be provided by the user.
+
+# Note
+The assembly files have been generated using my [cppasm](https://github.com/aelfimow/cppasm)
 generator.
